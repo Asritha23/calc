@@ -1,5 +1,6 @@
 package com.example.ashu1;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -29,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         Sub= (Button) findViewById(R.id.sub);
         Mul= (Button) findViewById(R.id.mul);
         Div= (Button) findViewById(R.id.div);
+        ActionBar actionbar=getSupportActionBar();
+        actionbar.hide();
         Add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
