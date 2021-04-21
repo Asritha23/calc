@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="Name"
+                android:inputType="text"
+                android:text=""/>
+
+            <EditText
+                android:id="@+id/edt_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="DD/MM/YY"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="date"/>
+            <EditText
+                android:id="@+id/edt_addr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="Address"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edt_phn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="Contact Number"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="Email"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/edt_adhar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="Adhar Number"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/edt_pan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="PAN Number"
+                android:inputType="textCapCharacters" />
+
+            <EditText
+                android:id="@+id/edt_acc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="Acount Number"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/edt_ifsc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="IFSC Code"
+                android:inputType="textCapCharacters" />
+            <EditText
+                android:id="@+id/edt_dl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="Driving lc No"
+                android:inputType="textCapCharacters" />
+            <Button
+                android:id="@+id/but_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="SUBMIT" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
